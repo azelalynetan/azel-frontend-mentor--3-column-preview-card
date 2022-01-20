@@ -31,8 +31,8 @@ Desktop view:
 
 ### Links
 
-- Solution URL: [https://azelalynetan.github.io/azel-frontend-mentor--3-column-preview-card/](https://azelalynetan.github.io/azel-frontend-mentor--3-column-preview-card/)
-- Live Site URL: [https://github.com/azelalynetan/azel-frontend-mentor--3-column-preview-card](https://github.com/azelalynetan/azel-frontend-mentor--3-column-preview-card)
+- Solution URL: [https://github.com/azelalynetan/azel-frontend-mentor--3-column-preview-card](https://github.com/azelalynetan/azel-frontend-mentor--3-column-preview-card)
+- Live Site URL: [https://azelalynetan.github.io/azel-frontend-mentor--3-column-preview-card/](https://azelalynetan.github.io/azel-frontend-mentor--3-column-preview-card)
 
 
 ## My process
