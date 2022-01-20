@@ -29,11 +29,11 @@ Users should be able to:
 Desktop view:
 ![](./screenshot.png)
 
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://azelalynetan.github.io/azel-frontend-mentor--3-column-preview-card/)
-- Live Site URL: [Add live site URL here](https://github.com/azelalynetan/azel-frontend-mentor--3-column-preview-card)
+- Solution URL: [https://azelalynetan.github.io/azel-frontend-mentor--3-column-preview-card/](https://azelalynetan.github.io/azel-frontend-mentor--3-column-preview-card/)
+- Live Site URL: [https://github.com/azelalynetan/azel-frontend-mentor--3-column-preview-card](https://github.com/azelalynetan/azel-frontend-mentor--3-column-preview-card)
+
 
 ## My process
 
