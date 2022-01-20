@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+    min-height: 0;
+    margin: 30px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 2.6em;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 600;
+    line-height: 1em;
+    color: hsla(0, 0%, 95%, 0.80);
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 2em;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 4.5em;
+    font-size: 14px;
+}
+
+.cards {
+    margin: 10px 20px 10px;
+    font-size: 15px;
+    line-height: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 50px 50px 60px;
+    flex: 1 0 200px;
+}
+
+.card:first-child {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+}
+
+.card:nth-child(2) {
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0;
+}
+
+.card:last-child {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
+/* tablet */
+@media screen and (min-width: 40em) {
+    .card {
+        max-width: calc(100% -  1em);
+    }
+
+    .card:first-child {
+        border-radius: 10px 0 0 0;
+    }
+    
+    .card:nth-child(2) {
+        border-radius: 0 10px 0 0;
+    }
+    
+    .card:last-child {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 60em) {
+    .container {
+        min-height: 95vh;
+        margin: 0;
+    }
+
+    .cards {
+        max-width: 910px;
+    }
+
+    .card {
+        max-width: calc(33% -  1em);
+    }
+    .card:first-child {
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .card:nth-child(2) {
+        border-radius: 0;
+    }
+    
+    .card:last-child {
+        border-radius: 0 10px 10px 0;
+    }
+}
+
+.icon {
+  margin-bottom: 2em;  
+}
+
+.card > a {
+    border: 0.5px solid hsl(0, 0%, 95%);
+    border-radius: 10em;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.9em 1.8em;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card:first-child > a {
+    color: hsl(31, 77%, 52%);
+}
+
+.card:nth-child(2) > a {
+    color: hsl(184, 100%, 22%);
+}
+
+.card:last-child > a{
+    color: hsl(179, 100%, 13%);
+}
+
+.card > a:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+.card > a:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 10px;
+}
